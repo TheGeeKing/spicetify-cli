@@ -437,9 +437,9 @@ declare namespace Spicetify {
      * history of played tracks and current track metadata.
      */
     const Queue: {
-        next_tracks: any[];
-        prev_tracks: any[];
-        revision: string;
+        nextTracks: any[];
+        prevTracks: any[];
+        queueRevision: string;
         track: any;
     };
     /**
@@ -1342,5 +1342,12 @@ declare namespace Spicetify {
             disabled: boolean;
             element: HTMLButtonElement;
         }
+    }
+
+    /**
+     * SVG icons 
+     */
+    namespace SVGIcons {
+        const check: string;
     }
 }
